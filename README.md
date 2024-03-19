@@ -61,7 +61,7 @@ This project was completed as a part of [CS50's Introduction to Artificial Intel
 
 ## Technologies
 **Language**: Python <br />
-**Libraries**: OpenCV, NumPy, OS, Sys, TensorFlow
+**Libraries**: OpenCV, NumPy, OS, Sys, TensorFlow, Scikit-learn
 
 ## License
 
