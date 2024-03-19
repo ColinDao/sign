@@ -55,13 +55,13 @@ Watch as the model learns from its predictions! It'll learn to astoundingly beco
 <br />
 **Evaluation Metrics**: Evaluate the trained model's performance using evaluation metrics such as accuracy on a separate test dataset to assess its effectiveness in classifying traffic sign images.
 
-## Credit
-
-This project was completed as a part of [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2024/). Go check them out!
-
 ## Technologies
 **Language**: Python <br />
 **Libraries**: OpenCV, NumPy, OS, Sys, TensorFlow, Scikit-learn
+
+## Credit
+
+This project was completed as a part of [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/2024/). Go check them out!
 
 ## License
 
