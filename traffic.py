@@ -176,11 +176,11 @@ def get_model():
         # Hidden layer: 256 neurons
         tf.keras.layers.Dense(256, activation = "relu"),
 
+        # Dropout layer: 30% chance of internal neurons not being considered (dropped)
+        tf.keras.layers.Dropout(0.3),
+
         # Hidden layer: 256 neurons
         tf.keras.layers.Dense(256, activation = "relu"),
-
-        # Dropout layer: 60% chance of internal neurons not being considered (dropped)
-        tf.keras.layers.Dropout(0.6),
 
         # Output layer
         tf.keras.layers.Dense(NUM_CATEGORIES, activation = "softmax")
