@@ -20,13 +20,13 @@ You'll need to have Python and pip3 installed. You can download them from the [o
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ColinDao/whats-that-sign-say.git
+git clone https://github.com/ColinDao/sign.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd whats-that-sign-say
+cd sign
 ```
 
 3. Install the required dependencies:
@@ -37,10 +37,10 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-To play against the AI, run the following command:
+To train the model, run the following command:
 
 ```bash
-python traffic.py
+python traffic.py gtsrb [model.h1]
 ```
 
 Watch as the model learns from its predictions! It'll learn to astoundingly become more and more accurate in how it distinguishes images.
